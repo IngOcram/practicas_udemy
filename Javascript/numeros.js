@@ -31,13 +31,14 @@ dato = parseInt('100.2030');
 
 // toFixed
 
-dato = '156484213186464321';
-//dato = 156484213186464321.163161116116;
+//dato = '156484213186464321';
+dato = 156484213186464321.163161116116;
 
 //console.log(dato.toFixed(3));
 //console.log(typeof dato);
 
-console.log
+console.log(parseFloat(dato).toFixed(2));
+
 
 
 
