@@ -4,3 +4,7 @@ document.body.appendChild(mes);
 let tabla_mes = document.createElement("TABLE");
 tabla_mes.className = "tabla_mes";
 mes.appendChild(tabla_mes);
+let titulo = document.createElement("CAPTION");
+titulo.className = "titulo";
+titulo.innerText = "Enero";
+tabla_mes.appendChild(titulo);
